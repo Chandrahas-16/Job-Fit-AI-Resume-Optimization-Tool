@@ -1,21 +1,7 @@
-import Navigation from "@/components/Navigation";
-import HeroSection from "@/components/HeroSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import UploadSection from "@/components/UploadSection";
-import ResultsDashboard from "@/components/ResultsDashboard";
-import Footer from "@/components/Footer";
+import JobFitApp from "@/components/JobFitApp";
 
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
-      <HeroSection />
-      <FeaturesSection />
-      <UploadSection />
-      <ResultsDashboard />
-      <Footer />
-    </div>
-  );
+  return <JobFitApp />;
 };
 
 export default Index;
