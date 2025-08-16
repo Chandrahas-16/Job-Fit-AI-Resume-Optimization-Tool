@@ -1,73 +1,42 @@
-# Welcome to your Lovable project
+# JobFit AI – Resume Optimization Tool  
 
-## Project info
+An AI-powered **resume optimization web application** that helps job seekers tailor their resumes for specific job descriptions.  
+The tool analyzes resumes, compares them with target job postings, and provides a **match score, missing keywords, ATS (Applicant Tracking System) suggestions, and improvement tips**.  
+It also allows users to **upload resumes in PDF format** and download an **optimized PDF report**.  
 
-**URL**: https://lovable.dev/projects/7ca47830-36ed-4da6-9a67-93e8fc5cc766
+---
 
-## How can I edit this code?
+## 🚀 Features  
 
-There are several ways of editing your application.
+- 🎨 **Minimal Black & White UI** – Clean, distraction-free design.  
+- 📂 **Upload Resume (PDF)** – Extracts text directly from uploaded PDF files.  
+- 📝 **Input Job Description** – Paste or type a JD for analysis.  
+- 📊 **AI Resume Analysis** –  
+  - Match Score (%)  
+  - Missing Keywords  
+  - ATS Optimization Suggestions  
+  - Resume Improvement Tips  
+- 📥 **Download Optimized PDF** – Export an ATS-friendly report with recommendations.  
+- 🔗 **Frontend ↔ Backend Integration** – Real-time analysis powered by FastAPI/Flask backend.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ca47830-36ed-4da6-9a67-93e8fc5cc766) and start prompting.
+## 🛠️ Tech Stack  
 
-Changes made via Lovable will be committed automatically to this repo.
+**Frontend**  
+- React.js  
+- TailwindCSS (Minimal B&W theme)  
+- Axios (API calls)  
 
-**Use your preferred IDE**
+**Backend**  
+- Python (FastAPI / Flask)  
+- PyPDF2 (Extract text from PDF)  
+- NLP (spaCy / Transformers / keyword matching logic)  
+- ReportLab (Generate optimized PDF report)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Others**  
+- GitHub for version control  
+- Deployed via (Netlify / Vercel / Heroku / Render) *(choose based on your hosting)*  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7ca47830-36ed-4da6-9a67-93e8fc5cc766) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
